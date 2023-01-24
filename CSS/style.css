@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass Mono', monospace;
+}
+
+/** Dando estilos al Header*/
+/*Mobile first*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.foto_perfil {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: -120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    width: 100%;
+    height: 2rem;
+    background-color: aquamarine;
+}
+
+.b1 {
+    text-decoration-line: none;
+}
+
+.perfil {
+    position: relative;
+    top: -125px;
+    text-align: center
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+/** Fin Header*/
+
+/** Dando estilos al Main*/
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3rem;
+    margin: 1rem;
+    text-align: justify;
+}
+
+main section:not(#sobre_mi) {
+    margin-top: 50px;
+}
+
+.titulo_sec {
+    text-align: center;
+    border-bottom: 2px solid salmon;
+}
+
+.contenedor ul {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.contenedor {
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.g1 {
+    padding: 0.2rem 0 0.2rem 0.5rem;
+}
+
+p.g1 {
+    padding-left: 1rem;
+}
+
+#experiencia .donde {
+    font-style: italic;
+}
+
+.card {
+    /* border: 2px solid aqua;
+    border-radius: 20px; */
+    padding: 1%;
+    max-width: 500px;
+    margin: auto;
+}
+
+#experiencia .card:not(#exp-1) {
+    margin-top: 3%;
+}
+
+/*---- FOOTER-------*/
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+
+.icono-sociales {
+    width: 50px;
+    margin-inline: 0.5rem;
+}
+
+.social {
+    height: 70px;
+    border-bottom: 2px solid antiquewhite;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.datos-contacto {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .foto_perfil {
+        width: 30%;
+    }
+
+    nav {
+        padding: 0 18%;
+    }
+
+    .titulo_sec {
+
+        width: 80%;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .foto_perfil {
+        width: 20%;
+        top: -100px;
+    }
+
+    nav {
+        padding: 0 28%;
+    }
+
+    .titulo_sec {
+
+        width: 60%;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        margin: auto;
+    }
+}

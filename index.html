@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Proyecto CV</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner"></div>
+        <img class="foto_perfil" src="https://randomuser.me/api/portraits/women/75.jpg" alt="foto_perfil">
+        <nav class="barra">
+            <a class="b1" href="#educacion">Educación</a>
+            <a class="b1" href="#experiencia">Experiencia</a>
+            <a class="b1" href="#soft_skill">Soft Skills</a>
+        </nav>
+        <section class="perfil">
+            <div class="nombre">
+                <h1>Ana Álvarez Carrillo</h1>
+            </div>
+            <div class="descripcion">
+                <p>Front End Developer</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="sobre_mi">
+            <h2 class="titulo_sec">Sobre Mi</h2>
+            <p class="card">Programadora con más de 4 años de experiencia en agencias de publicidad. Especializada en
+                aplicaciones móviles para Android y iOS. Conocimientos de Java, JavaScript y Angular. En mi actual
+                puesto recientemente creé una app para una empresa de moda que cuenta con más de 20 mil descargas y ha
+                recibido una calificación de 4.5 estrellas. Deseo utilizar mis capacidades para colaborar en los
+                proyectos de SinTech y generar aplicaciones de alta calidad y eficiencia.</p>
+        </section>
+
+        <section id="experiencia">
+            <h2 class="titulo_sec">Experiencia</h2>
+            <article id="exp-1" class="card contenedor">
+                <h3 class="subtitulo g1">Desarrolladora Front-End</h3>
+                <p class="donde g1">124 MediaCorp</p>
+                <p class="fecha g1">Enero 2019 - Actualidad</p>
+                <ul class="g1">
+                    <li>Participé en el desarrollo de 3 nuevas aplicaciones y 2 páginas web para los clientes de la
+                        empresa.</li>
+                    <li>Colaboré con diseñadores, copywriters e investigadores UX para brindar la mejor experiencia a
+                        los usuarios de las apps y sitios web.</li>
+                    <li>Reduje en un 10% los errores presentados en la app Zaza Ballet, gracias a mis habilidades de
+                        resolución de problemas.</li>
+                    <li>Implementé una tienda online para la página web TheOutnet, la cual elevó las ventas en un 15%.
+                    </li>
+                </ul>
+            </article>
+            <article id="exp-2" class="card contenedor">
+                <h3 class="subtitulo g1">Programadora Jr</h3>
+                <p class="donde g1">Antlers Inc</p>
+                <p class="fecha g1">Febrero 2017 - Diciembre 2018</p>
+                <ul class="g1">
+                    <li>Brindé mantenimiento continuo a las aplicaciones desarrolladas en JavaScript.</li>
+                    <li>Realicé pruebas de usuario periódicas reduciendo el número de bugs en un 15%.</li>
+                    <li>Desarrollé JavaScript para modificación de interfaz e integración con sistemas ERP, CRM, OCR,
+                        DMS.</li>
+                    <li>Recibí una calificación de 9,2 en mi evaluación de desempeño anual por parte del coordinador del
+                        departamento.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="educacion" class="contenedor">
+            <h2 class="titulo_sec">Educación</h2>
+            <article id="edu-1" class="card">
+                <h3 class="subtitulo g1">Grado en Ingeniería del Software</h3>
+                <p class="donde g1">Facultad de Informática de Barcelona</p>
+                <p class="fecha g1">Septiembre 2013 - Junio 2017</p>
+                
+            </article>
+        </section>
+
+        <section id="soft_skill" class="contenedor">
+            <h2 class="titulo_sec">Soft Skill</h2>
+            <ul class="card">
+                <li>Usabilidad</li>
+                <li>Trabajo en equipo</li>
+                <li>Microsoft FrontPage</li>
+                <li>Drupal</li>
+                <li>Angular</li>
+                <li>GIT</li>
+                <li>Apache Ant</li>
+                <li>Visual Basic</li>
+                <li>SQL Server</li>
+                <li>Prácticas Agile</li>
+                <li>Resolución de problemas</li>
+                <li>Wordpress</li>
+            </ul>
+        </section>
+        <section id="lenguajes" class="contenedor">
+            <h2 class="titulo_sec">Lenguajes de Programación</h2>
+            <ul class="card">
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="idiomas" class="contenedor">
+            <h2 class="titulo_sec">Idiomas</h2>
+            <article id="id-1" class="card">
+                <h3 class="subtitulo g1">Ingles</h3>
+                <p class="g1">Nivel B2</p>
+            </article>
+        </section>
+
+        <section id="cursos" class="contenedor">
+            <h2 class="titulo_sec">Cursos Adicionales</h2>
+            <article id="cursos-1" class="card ">
+                <h3 class="subtitulo g1">JavaScript Bootcamp </h3>
+                <p class="donde g1">Barcelona CodeSchool</p>
+                <p class="fecha g1">2019</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="social">
+            <a href="http://"><img src="/IMG/github.png" alt="logo-github" class="icono-sociales"></a>
+            <a href=""><img src="/IMG/linkedin.png" alt="logo-linkedin" class="icono-sociales"></a>
+        </section>
+        <section class="datos-contacto">
+            <p id="telefono">Teléfono: 912 104 803 </p>
+            <p>Email: ana-ac14@gmail.com</p>
+            <p><a href="http://www.anaalvarezdeveloper.com"> www.anaalvarezdeveloper.com</a></p>
+        </section>
+    </footer>
+</body>
+
+</html>
